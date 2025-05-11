@@ -13,7 +13,10 @@ This workbook contains two key sheets:
 
 ### 1. 📄 **Tasks**
 
-A task tracker sheet that lists the data analysis functions applied. Each task includes:
+A task tracker sheet that lists various data analysis functions applied to the dataset.  
+Each task includes the goal, the formula used, and its implementation status.
+
+Here are some examples of the tasks completed:
 | Task | Instruction | Status |
 |------|-------------|--------|
 | Total Orders | Used `SUM` to calculate total orders across dataset | ✔️ |
