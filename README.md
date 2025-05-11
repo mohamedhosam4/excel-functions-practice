@@ -11,6 +11,11 @@ This workbook contains two key sheets:
 
 ---
 
+## GitHub Profile:
+Feel free to connect with me on GitHub: [Mohamed Hosam](https://github.com/mohamedhosam4)
+
+---
+
 ### 1. 📄 **Tasks**
 
 A task tracker sheet that lists various data analysis functions applied to the dataset.  
