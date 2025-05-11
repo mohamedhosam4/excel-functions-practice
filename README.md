@@ -80,4 +80,4 @@ This is the main data sheet that includes a wide range of metrics for employee p
 ## 📌 Author
 
 **Aspiring Data Analyst**  
-Building my portfolio by practicing data cleaning, analysis, and automation using Excel and Python.  
+Building my portfolio by practicing data cleaning, analysis, and automation using Excel.  
