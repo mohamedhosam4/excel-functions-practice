@@ -1,100 +1,83 @@
-# Excel Data Analysis & Functions Practice 📊📈
 
-Welcome to my Excel Data Analysis project!  
-This workbook documents a complete set of hands-on exercises using **Excel formulas**, logic functions, and real-world-inspired KPIs. The aim is to develop and showcase strong spreadsheet analysis skills by solving tasks step-by-step with clarity and automation.
+# Excel Data Analysis Practice 🧮📊
 
----
+This project showcases my practical exercises in data analysis using Microsoft Excel. The goal is to sharpen my skills in working with real-world datasets, applying formulas, and automating analysis with functions.
 
-## 📁 Project File Overview
+## 📁 File Overview
 
-### `excel-functions-practice-with-doc.xlsx`
+### `excel-functions-practice.xlsx`
 
-This Excel workbook contains the following sheets:
-
-| Sheet Name     | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
-| 📄 Sales Data   | Main dataset with employee records, department info, and sales metrics.     |
-| ✅ Tasks        | A checklist of tasks solved using Excel functions.                          |
-| 📘 Documentation| In-depth documentation of each function, task, and logic used.              |
+This workbook contains two key sheets:
 
 ---
 
-## ✅ Task Tracker Summary
+### 1. 📄 **Tasks**
 
-| Task | Description | Status |
+A task tracker sheet that lists the data analysis functions applied. Each task includes:
+| Task | Instruction | Status |
 |------|-------------|--------|
-| Total Orders | `SUM` to calculate total number of orders across all rows. | ✔️ |
-| Average Sales per Month | `AVERAGEIF` used to get average monthly sales. | ✔️ |
-| Count Sales Over $1000 | `COUNTIF` to find all sales over $1000. | ✔️ |
-| Orders by Employee | `SUMIF` to total each employee’s orders. | ✔️ |
-| Max Orders in IT | `MAXIFS` to extract max orders from IT department. | ✔️ |
-| Average Rating per Department | `AVERAGEIF` to get average customer ratings per department. | ✔️ |
-| Performance Tag | `IF` used to classify performance (High/Medium/Low). | ✔️ |
-| Employees in Egypt with Sales > 2000 | `COUNTIFS` with country + sales condition. | ✔️ |
-| Number of Employees per Department | `COUNTIF` grouped by department. | ✔️ |
+| Total Orders | Used `SUM` to calculate total orders across dataset | ✔️ |
+| Average Sales per Month | Used `AVERAGEIF` to get monthly averages | ✔️ |
+| Count Sales Over $1000 | Used `COUNTIF` to count number of sales > $1000 | ✔️ |
+| Orders by Employee | Used `SUMIF` to summarize total orders by each employee | ✔️ |
+| Max Orders in IT | Used `MAXIFS` (or similar) to find max orders in IT department | ✔️ |
 
 ---
 
-## 🧪 Key Excel Functions Used
+### 2. 📊 **Sales Data**
 
-| Function | Purpose | Example |
-|----------|---------|---------|
-| `SUM` | Total sum of values | `=SUM(B2:B100)` |
-| `AVERAGEIF` | Conditional average | `=AVERAGEIF(C2:C100, "March", D2:D100)` |
-| `COUNTIF` | Count based on single condition | `=COUNTIF(D2:D100, ">1000")` |
-| `COUNTIFS` | Count using multiple criteria | `=COUNTIFS(C:C, "Egypt", D:D, ">2000")` |
-| `SUMIF` | Conditional summation | `=SUMIF(A:A, "Karim", D:D)` |
-| `MAXIFS` | Find max value under conditions | `=MAXIFS(D:D, B:B, "IT")` |
-| `AVERAGEIFS` | Multi-conditional average | `=AVERAGEIFS(D:D, C:C, "Jan", E:E, "Egypt")` |
-| `IF` | Logical conditional output | `=IF(F2>4.5, 200, 100)` |
-| `VLOOKUP` | Search and return related values | `=VLOOKUP("Lina", A2:D100, 2, FALSE)` |
+This is the main data sheet that includes a wide range of metrics for employee performance and department statistics.
 
----
+#### 📌 Key Work Done:
+- **Data Cleaning & Structure**:
+  - Standardized column headers and organized data for readability.
 
-## 📊 Metrics & Logic Implemented
+- **Descriptive Metrics**:
+  - Added columns for:
+    - `Orders by Employee` using `SUMIF`
+    - `Average Sales per Month` using `AVERAGEIF`
+    - `Count Sales Over $1000` using `COUNTIF`
+    - `Average Monthly Sales in Egypt` using `AVERAGEIFS`
+    - `Number of Employees per Department` using `COUNTIF`
+    - `Average Rating per Department` using `AVERAGEIFS`
 
-- **Orders by Employee**: Aggregated using `SUMIF`.
-- **Monthly Averages**: Calculated with `AVERAGEIF`.
-- **High-Value Sales Count**: Filtered using `COUNTIF`.
-- **Country-Specific Analysis**: Applied `AVERAGEIFS`, `COUNTIFS`.
-- **Performance Classification**: Used `IF` logic to tag employees:
-  - High: Sales > 3000
-  - Medium: 1500 < Sales ≤ 3000
-  - Low: Sales ≤ 1500
-- **Bonuses**: $200 for rating > 4.5, otherwise $100.
-- **Dynamic Lookups**: `VLOOKUP` to map employee names to departments.
+- **Lookup & Conditional Logic**:
+  - Used `VLOOKUP` to retrieve department of a specific employee.
+  - Used `IF` logic to calculate bonus based on `Customer Rating` (e.g., if rating > 4.5, give $200, else $100).
+
+- **Categorization**:
+  - Added a `Performance Tag` column (e.g., High, Medium, Low) to classify employee output.
 
 ---
 
-## 🎯 Goals of This Project
+## 🎯 Goals of the Project
 
-- Practice core Excel analysis formulas through real tasks.
-- Build a habit of documenting work in a reusable and clean format.
-- Understand lookup functions, conditional filtering, and multi-criteria logic.
-- Develop a structured analytical mindset suitable for dashboards or reports.
+- Reinforce understanding of core Excel formulas used in data analysis.
+- Practice tasks that mirror real-world reporting and dashboard logic.
+- Build reusable skills in summarizing, filtering, and drawing insights from data.
+
+## 🔧 Tools Used
+
+- Microsoft Excel
+
+## 🚀 Future Work
+
+- Recreate this analysis using Python and Pandas.
+- Visualize the dataset using Excel charts and pivot tables.
+- Add dashboards for department-wise and monthly insights.
 
 ---
 
 ## 🧠 Skills Practiced
 
-- 📌 Formula logic (`SUM`, `AVERAGEIF`, `COUNTIF`, `IF`, etc.)
-- 📌 Grouped aggregation and filtering
-- 📌 Conditional formatting and rule creation
-- 📌 Lookup and reference management
-- 📌 Planning, execution tracking, and self-review
+- ✅ Excel formulas (`SUM`, `AVERAGEIF`, `COUNTIF`, `SUMIF`, `MAXIFS`, `IF`, `VLOOKUP`)
+- ✅ Data aggregation by group
+- ✅ Conditional logic and dynamic lookup
+- ✅ Structured task planning and execution tracking
 
 ---
 
-## 🔮 Future Enhancements
+## 📌 Author
 
-- Recreate same logic using **Python (Pandas)**.
-- Build visual dashboards using **Pivot Tables & Charts**.
-- Add slicers and interactivity to drill into department-level insights.
-
----
-
-## 🙋‍♂️ About Me
-
-**Aspiring Data Analyst** 🚀  
-Passionate about structured analysis, real-world problem-solving, and automation using tools like Excel and Python.  
-This project reflects my ability to approach data with clarity and extract insights with precision.
+**Aspiring Data Analyst**  
+Building my portfolio by practicing data cleaning, analysis, and automation using Excel and Python.  
